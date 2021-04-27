@@ -3,7 +3,7 @@ import psycopg2
 
 
 try:
-    connect = psycopg2.connect(host ='localhost', database ='nwd', user='postgres', password='88227874')
+    connect = psycopg2.connect(host ='localhost', database ='nwd', user='postgres', password='*****')
     print('Conexão estabelecida')
 
 except:
